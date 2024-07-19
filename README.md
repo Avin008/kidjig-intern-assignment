@@ -2,13 +2,13 @@
 
 Welcome to the Kidjig Intern Assignment project.
 
-## Getting Started
-
-To get started, first install dependencies and run the development server:
-
 ## SCREENSHOT
 
 ![Project Screenshot](public/project-screenshot.png)
+
+## Getting Started
+
+To get started, first install dependencies and run the development server:
 
 ```bash
 npm install
