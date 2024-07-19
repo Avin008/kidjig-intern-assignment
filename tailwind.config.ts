@@ -11,6 +11,10 @@ const config: Config = {
       backgroundImage: {
         pattern: "url('/background.svg')",
       },
+      fontFamily: {
+        sans: ["var(--font-inter)"],
+        mono: ["var(--font-outfit)"],
+      },
     },
   },
   plugins: [],

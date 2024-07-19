@@ -1,18 +1,24 @@
 import Navbar from "@/components/navbar";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-cover flex flex-col justify-center items-center bg-pattern">
+    <main className="min-h-screen relative bg-cover flex flex-col justify-center items-center bg-pattern">
       <Navbar />
-      <div>
-        <h1 className="text-[56px] leading-[65px] flex flex-col text-[#FFFFFF]">
+      <Image
+        src="/ellipse1.png"
+        className="absolute bg-blend-soft-light top-5 right-0"
+        alt=""
+        height={1000}
+        width={1000}
+      />
+      <div className="z-20">
+        <h1 className="text-[56px] font-normal leading-[65px] flex flex-col text-[#FFFFFF]">
           Empowering Lives Through{" "}
           <span>
             Innovative{" "}
-            <span className="border-b-8 border-b-[#6A35FF] font-semibold">
-              AI
-            </span>{" "}
+            <span className="border-b-8 border-b-[#6A35FF] font-bold">AI</span>{" "}
             Technologies.
           </span>
         </h1>
@@ -22,20 +28,20 @@ export default function Home() {
         </p>
         <div className="flex gap-[15px] mt-[23px]">
           <Link
-            className="w-[239px] rounded-[12px] text-[#FFFFFF] bg-[#6A35FF] h-[53px] flex items-center justify-center"
+            className="w-[239px] font-bold rounded-[12px] text-[#FFFFFF] bg-[#6A35FF] h-[53px] flex items-center justify-center"
             href="/"
           >
             Explore Our Services
           </Link>
           <Link
-            className="w-[155px] h-[53px] flex justify-center items-center text-[#FFFFFF] rounded-[12px] border border-[#6881FF]"
+            className="w-[155px] font-semibold h-[53px] flex justify-center items-center text-[#FFFFFF] rounded-[12px] border border-[#6881FF]"
             href="/"
           >
             Learn more
           </Link>
         </div>
-        <div className="flex justify-start mt-[28px]">
-          <p className="gradient-text text-[24px]">
+        <div className="flex justify-start mt-[82px]">
+          <p className="gradient-text font-normal text-[24px]">
             From Ideas to Software Solutions{" "}
             <span className="no-gradient">💡✨</span> From Ideas to Software
             Solutions <span className="no-gradient">🌟✨</span> From Ideas to{" "}

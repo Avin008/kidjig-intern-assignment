@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="h-20 fixed left-0 flex items-center right-0 top-0 bg-[#000000]">
+    <nav className="h-20 fixed z-10 left-0 flex items-center right-0 top-0 bg-[#000000]">
       <div className="w-fit ml-[243px]">
         <Image src="brand.svg" width={87} height={54} alt="kiddig" />
       </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
       </ul>
       <Link
         href={"/"}
-        className="text-[#FFFFFF] ml-[115px] flex justify-center items-center rounded-[12px] border border-[#6881FF] w-[134px] h-[53px]"
+        className="text-[#FFFFFF] font-semibold ml-[115px] flex justify-center items-center rounded-[12px] border border-[#6881FF] w-[134px] h-[53px]"
       >
         Book a call
       </Link>
