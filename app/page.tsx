@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center bg-cover bg-pattern">
+    <main className="min-h-screen bg-cover flex flex-col justify-center items-center bg-pattern">
       <Navbar />
       <div>
         <h1 className="text-[56px] leading-[65px] flex flex-col text-[#FFFFFF]">

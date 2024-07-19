@@ -12,3 +12,7 @@
 .no-gradient {
   -webkit-text-fill-color: initial;
 }
+
+body {
+  background-color: #141414;
+}
