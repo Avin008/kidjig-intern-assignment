@@ -18,7 +18,7 @@ export default function Home() {
           Empowering Lives Through{" "}
           <span>
             Innovative{" "}
-            <span className="border-b-8 border-b-[#6A35FF] font-bold">AI</span>{" "}
+            <span className="font-bold decoration-[#6A35FF] underline">AI</span>{" "}
             Technologies.
           </span>
         </h1>
